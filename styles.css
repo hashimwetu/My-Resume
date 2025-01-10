@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(167, 167, 202);
+ padding: 2px;
+
+}
+
+.header-section {
+  background: linear-gradient(to right, #031522, #0a1c29); /* Dark blue gradient */
+  border-bottom-left-radius: 80px; /* Creates the bottom curve on the left */
+  border-bottom-right-radius: 80px; /* Optional: curve on the right */
+  padding: 0px;
+  color: white;
+  font-size: 12px;
+
+  
+}
+h1{
+font-size: 20px;
+}
+h2{
+font-size: 14px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Circular profile picture */
+  border: 4px solid green;
+}
+
+.profile-info{
+display: inline-block;
+text-align: left;
+
+
+}
+.profile-paragraph{
+margin-top: 10px;
+margin-left: 5px;
+
+}
+.contact-information{
+ align-items: end;
+}
+.presice-contact-info{
+text-align: right;
+}
+.info-div{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.email{
+float: right;
+margin-top: 5px;
+margin-right: 5px;
+}
+.profile{
+text-align: center;
+}
+.resume-body{
+display: grid;
+grid-template-columns: 50% 50%;
+font-size: 14px;
+padding-top: 20px;
+
+}
+.freelancer{
+font-size: 14px;
+color: rgb(34, 175, 34);
+
+}
+.raymond-email{
+color: white;
+}
+.raymond-email:hover{
+color: orangered;
+}
+.raymond-email:active{
+color: blue;
+
+}
+.skills-box{
+margin-bottom: 20px;
+line-height: 20px;
+margin-top: 10px;
+}
+.language-box{
+margin-bottom: 20px;
+line-height: 20px;
+}
+.intrests-box{
+margin-top: 0px;
+}
+.experience-box{
+line-height: 20px;
+margin-top: 10px;
+}
+.education-box{
+line-height: 20px;
+margin-top: 20px;
+}
+.project-box{
+margin-top: 20px;
+}
+button{
+margin-right: 10px;
+}
